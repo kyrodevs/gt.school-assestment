@@ -13,7 +13,7 @@ Now you git clone should get the LFS files properly. For support of LFS in Git G
 
 **Setup**
 * Developed and tested on Unity 2022.3.5f1 
-* On the main Scene you can find three gameObjects with a child called Spawner. On the variable 'grade' you can choose which grade from the API will be fetched. By default they are "6th Grade", "7th Grade" and "8th Grade"
+* On the SampleScene you can find three gameObjects with a child called Spawner. On the variable 'grade' you can choose which grade from the API will be fetched to instantiate the correct jenga tower. By default they are "6th Grade", "7th Grade" and "8th Grade"
 
 
 
