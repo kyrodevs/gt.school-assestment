@@ -18,5 +18,4 @@ Now you git clone should get the LFS files properly. For support of LFS in Git G
 
 **Contents:**
 
-    * Jenga Gamification
-
+    * Jenga Tower Game
