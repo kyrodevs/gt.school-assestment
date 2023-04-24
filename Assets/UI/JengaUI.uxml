@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="Container" style="flex-basis: 65px; justify-content: space-around; padding-left: 15%; padding-right: 15%; flex-grow: 0; flex-shrink: 1; align-items: center; bottom: -387px; flex-direction: row;">
+            <ui:Button text="6th Grade" display-tooltip-when-elided="true" />
+            <ui:Button text="7th Grade" display-tooltip-when-elided="true" />
+            <ui:Button text="8th Grade" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="infoMenu" style="height: 140px; width: 351px; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; white-space: normal; translate: 0 -64px; font-size: 9px; background-color: rgb(79, 79, 79);">
+            <ui:Label text="Block Information" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px; font-size: 12px;" />
+            <ui:GroupBox style="flex-direction: row; align-items: stretch; justify-content: space-between; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 15px; margin-right: 15px; margin-top: 0; margin-bottom: 5px; height: 19px; flex-wrap: nowrap;">
+                <ui:Label text="Grade Level: 0" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; padding-left: 3px; padding-right: 5px; padding-top: 3px; padding-bottom: 3px;" />
+                <ui:Label text="Domain:  Ratios &amp; Proportional Relationships" display-tooltip-when-elided="true" enable-rich-text="true" usage-hints="None" tabindex="0" style="-unity-text-align: upper-center; padding-left: 5px; padding-right: 5px; padding-top: 3px; padding-bottom: 3px; visibility: visible; overflow: hidden; height: 51px; display: flex; position: relative; flex-wrap: nowrap; align-items: stretch;" />
+            </ui:GroupBox>
+            <ui:Label text="Understand ratio concepts and use ratio reasoning to solve problems." display-tooltip-when-elided="true" style="-unity-text-align: upper-center; margin-bottom: 5px;" />
+            <ui:Label text="Description:" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+            <ui:Label text="Understand the concept of a ratio and use ratio language to describe a ratio relationship between two quantities. For example, &quot;The ratio of wings to beaks in the bird house at the zoo was 2:1, because for every 2 wings there was 1 beak.&quot; &quot;For every vote candidate A received, candidate C received nearly three votes." display-tooltip-when-elided="true" style="overflow: visible; height: 28px; visibility: visible; display: flex; flex-wrap: nowrap; flex-direction: column; align-items: auto; justify-content: flex-start; -unity-text-align: middle-left; white-space: normal; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px;" />
+        </ui:VisualElement>
+        <ui:Label text="Choose a grade" display-tooltip-when-elided="true" name="chooeGradeTxt" style="-unity-text-align: lower-center; height: 197px; width: 352px; align-items: flex-end; justify-content: center;">
+            <ui:Button text="Test the Stack" display-tooltip-when-elided="true" style="height: 19px; width: 59px; font-size: 7px; -unity-text-align: middle-center;" />
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>
